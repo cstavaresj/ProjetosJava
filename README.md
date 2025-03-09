@@ -1,4 +1,4 @@
 # ProjetosJava
 
-### PrimeiraListaPOO
-Resolução de uma lista de exercícios variados na linguagem java utilizando o software Eclipse.
+### PrimeiraListaPOO, SegundaListaPOO, TerceiraListaPOO e QuartaListaPOO
+Resolução de lista de exercícios variados da disciplina Programação Orientada a Objetos utilizando linguagem java e software Eclipse Luna.
