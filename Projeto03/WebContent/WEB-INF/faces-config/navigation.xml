@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE faces-config PUBLIC
+	"-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+	"http://java.sun.com/dtd/web-facesconfig_1_0.dtd">
+
+<faces-config>
+
+	
+   	<navigation-rule>
+		<description>Navegação do Menu</description>
+		<from-view-id>*</from-view-id>
+		
+		<navigation-case>
+			<from-outcome>telaCadastroCliente</from-outcome>
+			<to-view-id>/paginas/CadastrarCliente.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>telaConsultaCliente</from-outcome>
+			<to-view-id>/paginas/ConsultarCliente.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+   	
+		<navigation-case>
+			<from-outcome>telaCadastroFornecedor</from-outcome>
+			<to-view-id>/paginas/CadastrarFornecedor.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>telaConsultaFornecedor</from-outcome>
+			<to-view-id>/paginas/ConsultarFornecedor.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+   	</navigation-rule>
+</faces-config>	

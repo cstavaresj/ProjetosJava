@@ -1,0 +1,70 @@
+.mensagemErro {
+    background-image    :   url(../img/error.png);
+    background-repeat   :   no-repeat;
+    color               :   #CC0033;
+    font-family         :   Verdana, Arial, Helvetica, sans-serif;
+    font-size           :   11px;
+    font-weight         :   normal;
+    padding-left        :   25px;
+    height	 			: 	16px;
+}
+
+.mensagemInfo {
+    background-image    :   url(../img/info.gif);
+    background-repeat   :   no-repeat;
+    color               :   #36648B;
+    font-family         :   Verdana, Arial, Helvetica, sans-serif;
+    font-size           :   11px;
+    font-weight         :   normal;
+    padding-left        :   25px;
+    height	 			: 	16px;
+}
+
+.mensagemSuccess {
+    background-image    :   url(../img/passed.gif);
+    background-repeat   :   no-repeat;
+    color               :   #3CB371;
+    font-family         :   Verdana, Arial, Helvetica, sans-serif;
+    font-size           :   11px;
+    font-weight         :   normal;
+    padding-left        :   25px;
+    height	 			: 	16px;
+}
+
+.linhaPar {
+	border			: none;
+	background-color: #EEEEEE;
+}
+
+.linhaImpar {
+	border			: none;
+	background-color: #FFFFFF;
+}
+
+.linhaPar:hover {
+	border			: none;
+	background-color: #CCCCCC;
+}
+.linhaImpar:hover {	
+	border			: none;
+	background-color: #CCCCCC;
+}
+
+.col_label {
+	width: 20%;
+	text-align: right;
+}
+.col_input {
+	width: 80%;
+	text-align: left;
+}
+
+.col_esquerda {
+	width: 15%;	
+}
+.col_meio {
+	width: 70%;
+}
+.col_direita {
+	width: 15%;
+}
